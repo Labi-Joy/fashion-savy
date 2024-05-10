@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 300 to 800 */
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+
+
+.font1 {
+  color: #1B0072 ; 
+  font-weight: 700; 
+  text-align:center;
+  font-size: smaller;
+  padding-top: 5px;
+}
+
+.shop1 {
+  background-color: #40E0D0;
+  color: #1B0072; 
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+}
+.fash{
+  
+  background-color: rgba(163, 206, 202, 0.05); /* 50% opacity turquoise */
+}
+
+.fashion {
+  background-color: #40E0D0;
+  color: #1B0072; 
+  text-align: center;
+  padding: 19px;
+  border-radius: 5px;
+}
+
+.fashion1 {
+  background-color: #40E0D0;
+  color: #1B0072; 
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+}
+.fashion2 {
+  background-color: #40E0D0;
+  color: #1B0072; 
+  text-align: center;
+  padding: 16.5px;
+  border-radius: 5px;
+}
+
+
+
+.foot1{
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 0.75rem;
+}
+
+.foot2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 12px;
+}
+
+.foot3 {
+  font-family: 'open-sans';
+  font-weight: bold;
+  color: "tetiary-color";
+}
+
+.secondary-color {
+  color: #FAAD13;
+}
+
+.Amari {
+  font-size: x-large;
+  font-weight: 500;
+  padding-top: 2px;
+  
+}
+
+
+.Product {
+  font-size: large;
+  font-weight: 500;
+  padding-top: 10px;
+  
+}
+
+.Details {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.Cat {
+  font-weight: 500;
+  font-size: larger;
+  
+}
+
+.StyleInfo {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+/* 
+background: #11142D;
+background: #9A9AB0;
+background: #11142D;
+background: #000000;
+background: #FFDDD3;
+background: #11142D;
+background: #40E0D0;
+background: #515151;
+background: #9A9AB0;
+background: #11142D;
+background: #FFFFFF;
+background: #9A9AB0;
+background: #FFFFFF;
+background: #9A9AB0;
+background: #666666;
+background: #333333;
+background: #FAAD13;
+background: #D8D8D8;
+background: #FFFFFF;
+background: #000000;
+background: #40E0D0; */
