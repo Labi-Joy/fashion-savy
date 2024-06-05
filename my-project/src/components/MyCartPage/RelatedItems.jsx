@@ -32,7 +32,7 @@ export const RelatedItems = () => {
     <div className="hidden lg:block py-5 px-16 mb-20 " >
     <p className="font-bold text-5xl py-10 ">Related Items</p> 
 
-    <div className='flex justify-between px-10'> 
+    <div className='flex  gap-8 px-10'> 
     <RelatedProps picture={Image} like={HeartIcon} outfit="Bridal Dress" starImg={Ratings} promo="Sale" companyName="Aluko Fashions" amount="N5,699" />
     <RelatedProps picture={Image1} like={HeartIcon} outfit="Sims Gown" starImg={Ratings} promo="Sale" companyName="Enako Clothing Store" amount="N15,699" />
     <RelatedProps picture={Image2} like={HeartIcon} outfit="Pinky Kiddy" starImg={Ratings} promo="Sale" companyName="Lil Princesses Store" amount="N15,699" />

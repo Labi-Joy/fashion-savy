@@ -31,7 +31,7 @@ export const CheckOutForm = () => {
            </div>
         </div>
         
-      <div className="flex justify-between">
+      <div className="flex gap-4">
     
         <CheckoutProps formTitle="Shipping Address" labelName="First Name" placeholderName="First name" edit="border border:0.5 rounded-md py-1 w-[440px] px-4 h-12" />
         <CheckoutProps  firstEdit="pt-7"  labelName="First Name" placeholderName="First name" edit="border border:0.5 rounded-md py-1 w-[440px] px-4 h-12 mr-[250px]" />
@@ -40,7 +40,7 @@ export const CheckOutForm = () => {
         <CheckoutProps labelName="Address Line" placeholderName="Address line" edit="border border:0.5 rounded-md py-1 w-[900px] px-4 h-40"  />
         <CheckoutProps labelName="Country" placeholderName="Nigeria" edit="border border:0.5 rounded-md py-1 w-[900px] px-4 h-12" />
     
-     <div className="flex justify-between">
+     <div className="flex gap-4">
     
         <CheckoutProps labelName="Postal Code" placeholderName="Postal code" edit="border border:0.5 rounded-md py-1 w-[440px] px-4 h-12" />
         <CheckoutProps  labelName="Phone Number" placeholderName="Phone code" edit="border border:0.5 rounded-md py-1 w-[440px] px-4 h-12 mr-[250px]" />
@@ -49,7 +49,7 @@ export const CheckOutForm = () => {
       <div className='py-10'>
         <p className='text-2xl font-bold'>Billing Address</p>
         <div className='flex items-center py-10'><img src={Checkmark} alt="" className='w-8' /><p className='text-xl ml-4 font-semibold'>Same as shipping address</p></div>
-        <button className='py-3 bg-tetiary-color w-[900px] rounded-lg font-bold'>Continue</button>
+        <button className='py-3 bg-tetiary-color hover:bg-opacity-30 w-[900px] rounded-lg font-bold'>Continue</button>
       </div>
    
     </div>

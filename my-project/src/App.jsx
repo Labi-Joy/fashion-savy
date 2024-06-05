@@ -2,9 +2,9 @@
 // import HomePage from "./pages/HomePage";
 // import { DashPage } from "./pages/DashPage"
 // import { BuyerDetailPage } from "./pages/BuyerDetailPage";
-import { CartPDPage } from "./pages/CartPDPage";
+// import { CartPDPage } from "./pages/CartPDPage";
 // import { AboutUsPage } from "./pages/AboutUsPage";
-// import { CartPage } from "./pages/CartPage";
+import { CartPage } from "./pages/CartPage";
 
 // import { SearchBar } from "./components/BuyerDash/SearchBar";
 
@@ -25,11 +25,11 @@ export default function App() {
   return (
    <> 
   {/* <HomePage /> */}
-  {/* <DashPage/> */}
+  {/* <DashPage/>  */}
   {/* <BuyerDetailPage/> */}
-  <CartPDPage/>
+  {/* <CartPDPage/> */}
   {/* <AboutUsPage/> */}
-  {/* <CartPage/> */}
+  <CartPage/>
 
   {/* <FooterTop/> */}
   {/* <Footer/> */}
